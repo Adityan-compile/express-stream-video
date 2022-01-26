@@ -1,4 +1,4 @@
-const fs = require(fs);
+const fs = require("fs");
 
 exports.stream = (req={},res={},filePath="",chunkSize=3000000)=>{
 
