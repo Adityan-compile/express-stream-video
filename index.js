@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 exports.stream = (req={},res={},filePath="",chunkSize=3000000)=>{
-
+  const range = req.headers.range;
   if (!range) {
   return res.status(400).json({
     status: 400,
