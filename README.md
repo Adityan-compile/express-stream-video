@@ -1,11 +1,11 @@
-# Express Stream Video
+# Express-Stream-Video
 
-Express Stream Video is a Simple Video Streaming Package.
+Express-Stream-Video is a Simple Video Streaming Library for Express.js.
 
 # Install
 
-- npm i --save express-stream-video
-- yarn add express-stream-video
+- ```npm i --save express-stream-video```
+- ```yarn add express-stream-video```
 
 ## Example
 
